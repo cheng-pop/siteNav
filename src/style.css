@@ -26,7 +26,6 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   /* min-height: 100vh; */
-  /* height: 100%; */
 }
 @media (min-width: 500px) {
   body {
@@ -88,17 +87,12 @@ body {
   .itemList {
     margin-left: 0;
     margin-right: 0;
-    /* margin-right: -40px; */
     justify-content: flex-start;
-    /* outline: 1px solid red; */
   }
   .itemList > li {
     margin-right: 40px;
   }
 }
-/* .itemList > li { */
-/* margin-right: 40px; */
-/* } */
 .itemList .item {
   width: 120px;
   display: flex;

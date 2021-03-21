@@ -141,7 +141,7 @@ var render = function render() {
     var $li = $("<li>\n                <div class=\"item\">\n                    <div class=\"logo\">".concat(node.logo, "</div>\n                    <div class=\"linkAddress\">").concat(simplifyUrl(node.url), "</div>   \n                    <div class=\"close\">\n                        <svg class=\"icon\" aria-hidden=\"true\">\n                            <use xlink:href=\"#icon-guanbi1\"></use>\n                        </svg>\n                    </div>\n                </div>\n        </li>")).insertBefore($addList);
     $li.on('click', function () {
       window.open(node.url, '_self');
-    }); //对关闭操作阻止冒泡
+    }); //对删除操作阻止冒泡
 
     $li.on('click', '.close', function (e) {
       e.stopPropagation();
@@ -188,4 +188,4 @@ $(':input').on('keypress', function (e) {
   e.stopPropagation();
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.475018c9.js.map
+//# sourceMappingURL=main.10048c13.js.map

@@ -34,7 +34,7 @@ const render =() =>{
         $li.on('click', () => {
             window.open(node.url,'_self')
         })
-        //对关闭操作阻止冒泡
+        //对删除操作阻止冒泡
         $li.on('click', '.close', (e) =>{
             e.stopPropagation();
             hashMap.splice(index,1)
@@ -78,7 +78,5 @@ $(document).on('keypress',(e) => {
 
 $(':input').on('keypress', (e) =>{
     e.stopPropagation();
-    
-    
 })
 
