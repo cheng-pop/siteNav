@@ -29,10 +29,11 @@ body {
 }
 @media (min-width: 500px) {
   body {
-    background-image: url("beijing1.09af1cb6.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: linear-gradient(145deg, rgba(2,0,36,1) 0%, rgba(227,255,253,1) 0%, rgba(183,233,230,1) 100%);
+    /* background-image: url("./images/beijing2.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    /* background-attachment: fixed; */
   }
 }
 .allHeader {
@@ -196,4 +197,4 @@ body {
 }
 
 
-/*# sourceMappingURL=style.1013accb.css.map */
+/*# sourceMappingURL=style.b004752f.css.map */

@@ -21,7 +21,7 @@ img {
 }
 body {
   background: #eee;
-  background-image: url("./images/beijing.jpg");
+  background-image: url("/beijing.dde61eaa.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
@@ -195,3 +195,6 @@ body {
   text-overflow: ellipsis;
   text-align: center;
 }
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
